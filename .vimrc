@@ -62,7 +62,7 @@ nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>bl :ls<CR>
 
 " Use arrow keys to navigate window splits
-nnoremap <silent> <Right> :wincmd l <CR>
-nnoremap <silent> <Left> :wincmd h <CR>
-noremap <silent> <Up> :wincmd k <CR>
-noremap <silent> <Down> :wincmd j <CR>
+" nnoremap <silent> <Right> :wincmd l <CR>
+" nnoremap <silent> <Left> :wincmd h <CR>
+" noremap <silent> <Up> :wincmd k <CR>
+" noremap <silent> <Down> :wincmd j <CR>
