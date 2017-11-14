@@ -41,7 +41,6 @@ nmap <leader>p :CtrlP<cr>  " enter file search mode
 " Nerdtree
 autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
-b:NERDTree.isTabTree()) | q | endif
 map <C-n> :NERDTreeToggle<CR>  " open and close file tree
 nmap <leader>n :NERDTreeFind<CR>  " open current buffer in file tree
 
