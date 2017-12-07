@@ -45,7 +45,7 @@ let g:ctrl_p_custom_ignore = {
 " Use the nearest .git|.svn|.hg|.bzr directory as the cwd
 let g:ctrlp_working_path_mode = 'r'
 
-nmap <leader>p :CtrlP<cr>  " enter file search mode
+nmap <leader>p :CtrlP<cr>
 
 " Nerdtree
 "autocmd vimenter * NERDTree
