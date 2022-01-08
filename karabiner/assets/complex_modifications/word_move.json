@@ -1,0 +1,48 @@
+{
+  "title": "Change option + left/right arrow to esc + b/f",
+  "rules": [
+    {
+      "description": "option + left/right arrow to esc + b/f",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "right_arrow",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "f",
+              "modifiers": [
+                "escape"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "left_arrow",
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "b",
+              "modifiers": [
+                "escape"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

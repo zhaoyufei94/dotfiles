@@ -1,5 +1,5 @@
 [user]
-	name = Yufei Zhao 
+	name = Zhao Yufei
 	email = yz3170@columbia.edu
 [color]
 	diff = auto
@@ -10,7 +10,7 @@
 [alias]
 	co = checkout
 	br = branch
-	ci = commit -m
+	ci = commit
 	st = status
 	last = log -1 HEAD
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
@@ -20,3 +20,6 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[core]
+	autocrlf = input
+	ignorecase = false
